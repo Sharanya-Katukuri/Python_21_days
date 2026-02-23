@@ -23,3 +23,15 @@ print(max(t))
 print(min(t))
 # sum()
 print(sum(t))
+
+# Create a tuple and print its length.
+t=(1,2,3,4,5)
+print(len(t))
+
+# Find the index of value 5 in (1, 3, 5, 7).
+t1=(1,3,5,7)
+print(t1.index(5))
+
+# Count how many times 2 appears in (2,2,3,4).
+t2=(2,2,3,4)
+print(t2.count(2))
